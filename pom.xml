@@ -12,7 +12,7 @@
     </parent>
     <groupId>com.github.ak98neon</groupId>
     <artifactId>spring-boot-profiler-starter</artifactId>
-    <version>1.0</version>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
     <url>https://github.com/ak98neon/spring-boot-profiler-starter</url>
 
