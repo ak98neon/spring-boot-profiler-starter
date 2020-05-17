@@ -19,6 +19,7 @@
     <properties>
         <refl.version>0.9.12</refl.version>
         <lombok.version>1.18.10</lombok.version>
+        <gpgplugin.version>1.6</gpgplugin.version>
     </properties>
 
     <dependencies>
@@ -53,6 +54,11 @@
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>
             <version>2.13.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-gpg-plugin</artifactId>
+            <version>${gpgplugin.version}</version>
         </dependency>
     </dependencies>
 
@@ -116,7 +122,7 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-gpg-plugin</artifactId>
-                        <version>1.6</version>
+                        <version>${gpgplugin.version}</version>
                         <executions>
                             <execution>
                                 <id>sign-artifacts</id>
