@@ -10,7 +10,7 @@
 @PostProxy
 ```
 
-###How to enable profiler
+### How to enable profiler
 To enable profiling you need to add @EnableProfiling annotation 
 to your main class
 ```java
