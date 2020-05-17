@@ -3,8 +3,20 @@
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/c61114ef947e4a51be90efcf548a13cd)](https://app.codacy.com/manual/ak98neon/spring-boot-profiler-starter?utm_source=github.com&utm_medium=referral&utm_content=ak98neon/spring-boot-profiler-starter&utm_campaign=Badge_Grade_Dashboard)
 [![Build Status](https://travis-ci.org/ak98neon/spring-boot-profiler-starter.svg?branch=master)](https://travis-ci.org/github/ak98neon/spring-boot-profiler-starter)
+[![Coverage Status](https://coveralls.io/repos/github/ak98neon/spring-boot-profiler-starter/badge.svg?branch=master)](https://coveralls.io/github/ak98neon/spring-boot-profiler-starter?branch=master)
+[![BCH compliance](https://bettercodehub.com/edge/badge/ak98neon/spring-boot-profiler-starter?branch=master)](https://bettercodehub.com/)
 
-## Annotations
+### Usage
+##### Maven
+```
+<dependency>
+    <groupId>com.github.ak98neon</groupId>
+    <artifactId>spring-boot-profiler-starter</artifactId>
+    <version>1.0.1</version>
+</dependency>
+```
+
+### Annotations
 ```text
 @EnableProfiling
 @Profiling
