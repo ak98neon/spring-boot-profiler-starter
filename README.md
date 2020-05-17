@@ -2,8 +2,20 @@
 
 
 [![Build Status](https://travis-ci.org/ak98neon/spring-boot-profiler-starter.svg?branch=master)](https://travis-ci.org/github/ak98neon/spring-boot-profiler-starter)
+[![Coverage Status](https://coveralls.io/repos/github/ak98neon/spring-boot-profiler-starter/badge.svg?branch=master)](https://coveralls.io/github/ak98neon/spring-boot-profiler-starter?branch=master)
+[![BCH compliance](https://bettercodehub.com/edge/badge/ak98neon/spring-boot-profiler-starter?branch=master)](https://bettercodehub.com/)
 
-## Annotations
+### Usage
+##### Maven
+```
+<dependency>
+    <groupId>com.github.ak98neon</groupId>
+    <artifactId>spring-boot-profiler-starter</artifactId>
+    <version>1.0.1</version>
+</dependency>
+```
+
+### Annotations
 ```text
 @EnableProfiling
 @Profiling
