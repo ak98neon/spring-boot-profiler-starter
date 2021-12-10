@@ -22,7 +22,7 @@
         <lombok.version>1.18.10</lombok.version>
         <gpgplugin.version>1.6</gpgplugin.version>
         <version.plugin.javadoc>3.2.0</version.plugin.javadoc>
-        <log4j.version>2.13.3</log4j.version>
+        <log4j.version>2.15.0</log4j.version>
     </properties>
 
     <dependencies>
